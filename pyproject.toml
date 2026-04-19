@@ -91,3 +91,5 @@ testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
+# Show short summary of failures and print local variables on failure — easier to debug
+addopts = "-v --tb=short -l"
